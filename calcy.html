@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tip calculator</title>
+    <link rel="stylesheet" type="text/css" href="Calcy.css">
+</head>
+<body>
+    <div class="calcy">
+        <h2>Tip Calculator</h2>
+        <br>
+        <div class="main">
+          <form onclick="return false">
+            <label>bill amount</label>
+            <input type="number" class="bill_amount">
+            <br><br>
+            <label>tip percentage</label>
+            <input type="number" class="tip_perc">
+            <br><br>
+            <label>tip amount</label>
+            <input type="number" class="tip_amnt" disabled>
+            <br><br>
+            <label>total amount</label>
+            <input type="number" class="total_amnt" disabled>
+            <br><br><br>
+            <input type="submit" class="btn" value="CALCULATE" onclick="tipcalcy()" >
+          </form>
+        </div>
+    </div>
+
+    <script src="Calcy.js"></script>
+</body>
+</html>
